@@ -1,0 +1,25 @@
+.container{
+    height: 50px;
+    display: flex;
+    align-items:center;
+    font-size: 13px;
+    justify-content:space-between;
+}
+.social{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.icon{
+    opacity: 0.6;
+    cursor: pointer;
+}
+@media only screen and (max-width: 896px) and (min-width: 360px){
+ .container{
+    margin-bottom:20px ;
+    margin-top: 20px;
+    }
+    .text{
+        width: 43%;
+    }
+ }
