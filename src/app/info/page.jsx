@@ -7,14 +7,14 @@ const Info = () => {
     <div className={styles.container}>
       <h1 className={styles.selectTitle}>Our Services</h1>
       <div className={styles.items}>
-        <Link href="/info/illustrations" className={styles.item}>
-          <span className={styles.title}>Translations</span>
+        <Link href="/info/LearnlyDashboard" className={styles.item}>
+          <span className={styles.title}>Online-Store</span>
         </Link>
-        <Link href="/info/websites" className={styles.item}>
-          <span className={styles.title}>Artificial Intelligence</span>
+        <Link href="/info/OnlineStore" className={styles.item}>
+          <span className={styles.title}>Learnly-Dashboard</span>
         </Link>
-        <Link href="/info/application" className={styles.item}>
-          <span className={styles.title}>Search Engine Evaluator</span>
+        <Link href="/info/BreedRealEstate" className={styles.item}>
+          <span className={styles.title}>Breed-Real-Estate</span>
         </Link>
       </div>
     </div>
@@ -22,3 +22,4 @@ const Info = () => {
 };
 
 export default Info;
+

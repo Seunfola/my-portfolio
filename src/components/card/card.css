@@ -2,7 +2,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   max-width: 320px;
-  margin: 20px auto;
+  margin: 10px auto;
   overflow: hidden;
 }
 
@@ -22,5 +22,8 @@
 .profileCard-comment {
   padding: 15px;
   font-size: 16px;
-  color: #333;
+}
+.profile-title{
+  padding: 15px;
+  font-size:16px;
 }

@@ -12,18 +12,18 @@ const links = [
   },
   {
     id: 2,
-    title: 'About',
+    title: 'Experience',
     url: '/about',
   },
   {
     id: 3,
-    title: 'Services',
+    title: 'Projects',
     url: '/info',
   },
   {
     id: 4,
-    title: 'FAQ',
-    url: '/faq',
+    title: 'Recommendation',
+    url: '/Recommendation',
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <div className={`${styles.container} ${menuOpen ? styles.open : 'none'}`}>
       <Link href="/" className={styles.logo}>
-        BLAY-HUB
+        FOLAHAN
       </Link>
       <div className={styles.navWrapper}>
         <div className={`${styles.menuIcon} ${menuOpen ? styles.open : 'none'}`} onClick={toggleMenu}>
@@ -57,7 +57,6 @@ const Navbar = () => {
               {link.title}
             </Link>
           ))}
-          <Button url="/dashboard/signup" text="Sign Up" />
         </div>
       </div>
     </div>

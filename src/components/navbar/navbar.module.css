@@ -9,6 +9,7 @@
   font-weight: bold;
   font-size: 24px;
   text-decoration: none;
+  color: #007bff;
 }
 
 .menuIcon {
@@ -20,7 +21,7 @@
 .bar {
   width: 30px;
   height: 3px;
-  background-color: rgb(8, 107, 51);
+  background-color: #007bff;
   margin: 4px 0;
 }
 

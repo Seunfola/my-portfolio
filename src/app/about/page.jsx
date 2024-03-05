@@ -17,13 +17,17 @@ const About = () => {
         <div className={styles.item}>
           <h1 className={styles.itemTitle}>The Bulb Africa, Lagos April 2022 </h1>
           <ul className={styles.itemDesc}>
-            <li> Implemented website, Single web pages, from concepts through deployment.</li>
-            <li> Collaboration with the designers and product team members to improve and implement web
-              applications new features.</li>
-            <li>Daily maintenance and debugging of code base, making use of reusable components where
-              necessary and keeping a dry code always.</li>
-            <li>Standardize all output development with a new responsive, mobile first approach and strategy.</li>
+            <li> Developed and hosted a robust backend database using MongoDB, Prisma, Postman, and Node.js
+          as the runtime server.</li>
+            <li> Implemented optimization strategies, including code-splitting, Server-Side Rendering, and
+              advanced state management, resulting in a substantial improvement in web application
+          performance.</li>
+            <li>Delivered optimal architectural patterns tailored to project needs, ensuring efficiency and
+              scalability.</li>
+            <li> Worked in a team that redesign the company’s User Interface, introducing an improved layout
+              and seamlessly integrating an intuitive routing system to enhance overall user experience</li>
           </ul>
+
         </div>
         <div className={styles.item}>
           <h1 className={styles.itemTitle}> What We Do?</h1>

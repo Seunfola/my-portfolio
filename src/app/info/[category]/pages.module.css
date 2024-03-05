@@ -1,7 +1,7 @@
 .container {
 }
 .catTitle {
-  color: #53c28b;
+  color:#007bff;
 }
 
 .item{
@@ -22,7 +22,7 @@
 }
 
 .img{
-  object-fit: cover;
+  object-fit: fill;
 }
 .btn{
   margin:10px auto;

@@ -1,72 +1,33 @@
 export const items = {
+  
+LearnlyDashboard: [
+        {
+            id: 1,
+            title: "Learnly Dashboard",
+            desc: "It a web appliaction taht register tasks and render the tasklist, has filter and search and pagination",
+            image:"/learnly.png",
+        url: "https://learnly-dashboard.vercel.app/"
+        },
 
-    illustrations: [
-        {
-            id: 1,
-            title: "Creative Portfolio",
-            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image:
-                "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg",
-        },
-        {
-            id: 2,
-            title: "Minimal Single Product",
-            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image:
-                "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg",
-        },
-        {
-            id: 3,
-            title: "Strong Together Charity",
-            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image:
-                "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg",
-        }
     ],
-    websites: [
+    OnlineStore : [
         {
             id: 1,
-            title: "Creative Portfolio",
-            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image:
-                "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg",
+            title: "Breed Store",
+            desc: "Breed Store is a web application that displays products, carts, homepage and checkout page.",
+            image: "/BreedStore.png",
+            url: "https://bulb-capstone-9b12.vercel.app/home"
         },
-        {
-            id: 2,
-            title: "Minimal Single Product",
-            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image:
-                "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg",
-        },
-        {
-            id: 3,
-            title: "Strong Together Charity",
-            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image:
-                "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg",
-        }
+        
     ],
-    application: [
+    BreedRealEstate: [
         {
             id: 1,
-            title: "Evaluation Projects",
-            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image:
-                "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg",
+            title: "Breed Real Estate",
+            desc: "Breed Real Estate that displays the case for properties for sales for potential clients",
+            image: "/BreedHm.png",
+            url: "https://real-estate-lemon-five.vercel.app/",
         },
-        {
-            id: 2,
-            title: "Minimal Single Product",
-            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image:
-                "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg",
-        },
-        {
-            id: 3,
-            title: "Strong Together Charity",
-            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image:
-                "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg",
-        }
+        
     ]
 };
