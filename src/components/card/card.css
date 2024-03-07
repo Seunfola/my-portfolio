@@ -21,18 +21,18 @@
 
 .profileCard-comment {
   text-align: justify;
-  padding: 15px;
   font-size: 16px;
-  
+  padding: 10px 0; 
 }
 .profile-title{
-  padding: 15px;
   font-size:20px;
+padding: 10px 0;
+
 }
 @media (max-width: 768px) {
   .profileCard {
     max-width: 90%; 
-    margin: 20px auto;
+    margin: 20px;
   }
 
   .profileCard-header {
@@ -42,10 +42,10 @@
 
   .profileCard-comment {
     font-size: 12px; 
-    padding: 12px; 
+    padding: 12px 0; 
   }
   .profile-title{
-  padding: 12px;
+  padding: 12px 0;
   font-size:12px;
 }
 }
