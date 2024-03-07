@@ -18,9 +18,16 @@
 }
 .image{
     object-fit: contain;
-   
 }
-
+.submitButton{
+  padding:10px 30px;
+  cursor:pointer;
+  background-color: #007bff;
+  border:none;
+  border-radius: 5px;
+  width: max-content;
+  color:white;
+}
 .form{
     flex: 1;
     display: flex;

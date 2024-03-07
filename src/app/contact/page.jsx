@@ -1,47 +1,50 @@
 'use client'
 import { useRef, useState } from 'react';
-import styles from './page.module.css';
+import styles from './page.module.css'; // Adjust path if necessary
 import Image from 'next/image';
-import Button from '@/app/button/Button';
 import toast from 'react-hot-toast';
-import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser'; // Correct import statement
+import { useRouter } from 'next/navigation';// Import for programmatic navigation
 
 const Contact = () => {
-
+  
   const form = useRef();
-  const [isMessageSent, setIsMessageSent] = useState(false);
+  const [isSending, setIsSending] = useState(false); 
+  const router = useRouter();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_1gmvoew', 'template_ao08965', form.current, '_8GeNeGxFow4XwMnF')
+    setIsSending(true); // Indicate the start of the sending process
+    
+    emailjs.sendForm('your_service_id', 'your_template_id', form.current, 'your_user_id')
       .then((result) => {
         console.log(result.text);
-        setIsMessageSent(true); // Set message sent status to true
-        notify(); // Notify when the email is sent successfully
+        toast.success('Message Sent and delivered successfully.'); // Display success toast
       })
       .catch((error) => {
         console.error(error.text);
+        toast.error('Failed to send the message. Please try again.'); // Display error toast
+      })
+      .finally(() => {
+        setIsSending(false); // Reset the sending state
+        router.push('/notification'); // Redirect to Notification page regardless of the outcome
       });
-  };
-
-  const notify = () => {
-    toast('Message Sent and delivered successfully.');
   };
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}> Contact Me</h1>
+      <h1 className={styles.title}>Contact Me</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
-          <Image src="/Cont.png" className={styles.image} fill={true} alt='contact pic' />
+          <Image src="/Cont.png" alt="contact pic" layout="fill" objectFit="cover" />
         </div>
-        <form className={styles.form} ref={form} onSubmit={sendEmail}>
-          <input type='text' placeholder='name' id='name' name='name' className={styles.input} required />
-          <input type='email' placeholder='email' id='email' name='email' className={styles.input} required />
-          <textarea className={styles.textArea} placeholder="Message" cols="30" rows="10" autoComplete='on' spellCheck='true' required />
-          <Button text="send" url="/" />
-          {isMessageSent && <p>Message sent successfully!</p>}
+        <form ref={form} onSubmit={sendEmail} className={styles.form}>
+          <input type='text' placeholder='Name' id='name' name='user_name' className={styles.input} required />
+          <input type='email' placeholder='Email' id='email' name='user_email' className={styles.input} required />
+          <textarea name='message' placeholder="Your Message Here" className={styles.textArea} required></textarea>
+          <button type="submit" className={styles.submitButton} disabled={isSending}>
+            Send
+          </button>
         </form>
       </div>
     </div>

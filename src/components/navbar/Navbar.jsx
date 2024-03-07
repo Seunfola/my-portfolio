@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <div className={`${styles.container} ${menuOpen ? styles.open : 'none'}`}>
       <Link href="/" className={styles.logo}>
-        FOLAHAN
+        FOLAHAN's <br/> PORTFOLIO
       </Link>
       <div className={styles.navWrapper}>
         <div className={`${styles.menuIcon} ${menuOpen ? styles.open : 'none'}`} onClick={toggleMenu}>
