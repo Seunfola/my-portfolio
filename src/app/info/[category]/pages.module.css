@@ -18,11 +18,17 @@
 .imgContainer{
   flex:1;
   height: 500px;
+  width: 100%;
   position: relative;
 }
 
 .img{
-  object-fit: fill;
+  object-fit: contain;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
 }
 .btn{
   margin:10px auto;

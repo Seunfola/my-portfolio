@@ -9,13 +9,15 @@ const About = () => {
       <div className={styles.imgContainer}>
         <Image src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" fill={true} alt='image' className={styles.img} />
         <div className={styles.imgText}>
-          <h1 className={styles.imgTitle}>About ME:</h1>
-          <h2 className={styles.imgDesc}>Front-End Web Developer</h2>
+          <h1 className={styles.imgTitle}>EXPERIENCE:</h1>
+          
         </div>
       </div>
       <div className={styles.textContainer}>
         <div className={styles.item}>
           <h1 className={styles.itemTitle}>The Bulb Africa, Lagos April 2022 </h1>
+          <h2 className={styles.imgDesc}>Front-End Web Developer</h2>
+
           <ul className={styles.itemDesc}>
             <li> Developed and hosted a robust backend database using MongoDB, Prisma, Postman, and Node.js
           as the runtime server.</li>
@@ -30,20 +32,21 @@ const About = () => {
 
         </div>
         <div className={styles.item}>
-          <h1 className={styles.itemTitle}> What We Do?</h1>
+          <h1 className={styles.itemTitle}> TECHNICAL SKILLS</h1>
           <ul className={styles.itemDesc}>
-            <li>
-              Excellent interpersonal, communication, and teamwork skills</li>
-            <li>Good project management techniques</li>
-            <li>Honest and transparent with a great sense of responsibility </li>
-            <li>Precise numerical, analytical, and presentation skills</li>
-            <li>Expert user of MS word, Excel, and PowerPoint</li>
-            <li>Highly innovative—sees better ways of doing things</li>
-            <li>Teachable—apt to learn with great attention to details</li>
-    
-          </ul>
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>Javascript</li>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>API Testing: Postman</li>
+            <li>Database: MongoDB</li>
+            <li>UI Responsiveness</li>
+            <li>Full Software Development Cycle</li>
+         </ul>
           <Button url="/contact" text="contact" />
         </div>
+        
       </div>
     </div>
   )

@@ -15,7 +15,8 @@ const recommendation = () => {
           <ProfileCard
             header="Felix Afolayan"
             picture="/flex1.jpg" // Assuming the image is in the public folder
-            comment="I'm a software engineer who loves to write clean and efficient code. Excited about the future of web development!"
+            comment="
+I've had the genuine pleasure of working closely with Folahan Mosunmola for quite some time now. Throughout this period, he han't just stood out as a beacon of technical expertise in his role as a frontend Engineer but he has also deeply impressed me with his unwavering commitment"
             title="Bet 365, UK"
           />
         </div>
@@ -24,8 +25,8 @@ const recommendation = () => {
         <ProfileCard
           header="Adetoun Olayemi"
           picture="/Toun.jpeg" // Assuming the image is in the public folder
-          comment="I'm a software engineer who loves to write clean and efficient code. Excited about the future of web development!"
-          title="Credo Lagos, Nigeria"
+            comment=" Folahan's willingness to share knowledge and support his peers embodies the essence of mentorship from an early stage in his career. He approaches every project with a team-first attitude, contributing to a supportive and innovative work environment."
+            title="Credo, Lagos, Nigeria"
         />
       </div>
       <div className={styles.items}>
@@ -33,7 +34,7 @@ const recommendation = () => {
         <ProfileCard
           header="Ajani Bolaji"
           picture="/Ajani Bolaji.jpeg" // Assuming the image is in the public folder
-          comment="I'm a software engineer who loves to write clean and efficient code. Excited about the future of web development!"
+            comment="Having worked with and mentored Folahan is his genuine enthusiasm for technology and his proactive approach to professional development. He consistently goes beyond to expand his skill set, embracing new technologies and methodologies with an eagerness that is contagious."
           title="GIV Energy, UK"
         />
       </div>

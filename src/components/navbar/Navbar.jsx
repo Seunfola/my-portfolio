@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 import styles from './navbar.module.css';
 import DarkMode from '../darkMode/DarkMode';
-import Button from '@/app/button/Button';
 
 const links = [
   {

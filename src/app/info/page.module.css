@@ -18,6 +18,8 @@
   width: 400px;
   height: 400px;
   position: relative;
+  color: 
+  #bb8a0d;
   background-size: cover !important;
 }
 
@@ -35,12 +37,12 @@
   position: absolute;
   right: 10px;
   bottom: 10px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .item:hover .title {
-  color: #007bff;
+  color: rgb(11, 7, 127);
 }
 @media only screen and (max-width: 896px) and (min-width: 360px){
  .container{
