@@ -1,8 +1,8 @@
 'use client'
 
-import Image from 'next/image'
-import styles from './page.module.css'
-import Button from './button/Button'
+import Image from 'next/image';
+import styles from './page.module.css';
+import Button from './button/Button';
 
 
 
@@ -21,7 +21,10 @@ const Home = () => {
         <div className={styles.item}>
           <Image src='/foli.jpg' width={200} height={200} alt='hero image' className={styles.img} />
         </div>
+        <div>
         
+        </div>
+
         
       </div>
       <div className={styles.Hero}>

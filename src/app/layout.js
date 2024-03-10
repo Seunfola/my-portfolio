@@ -6,9 +6,7 @@ import Footer from '@/components/footer/Footer'
 import { ThemeProvider } from '@/context/ThemeContext'
 import { SessionProvider } from 'next-auth/react'
 
-
 const inter = Inter({ subsets: ['latin'] });
-
 
 const RootLayout = ({ children }) => {
   return (
