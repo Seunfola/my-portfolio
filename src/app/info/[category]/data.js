@@ -13,7 +13,7 @@ export const items = {
     ],
     OnlineStore: [
         {
-            id: 2,
+            id: 1,
             title: "Breed Store",
             desc: "Breed Store is a web application that displays products, carts, homepage and checkout page. Used Redux to manage the state, used react-hot-toast to set the notification, employed reuseable component and used firebase for login authentication",
             image: "/BreedStore.png",
@@ -24,7 +24,7 @@ export const items = {
     ],
     BreedRealEstate: [
         {
-            id: 3,
+            id: 1,
             title: "Breed Real Estate",
             desc: "Breed Real Estate that displays the case for properties for sales for potential clients It is a static website and it was built using vite, it is completely mobile response",
             image: "/BreedHm.png",
