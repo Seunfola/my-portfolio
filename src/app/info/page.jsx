@@ -8,10 +8,10 @@ const Info = () => {
       <h1 className={styles.selectTitle}>Our Services</h1>
       <div className={styles.items}>
         <Link href="/info/LearnlyDashboard" className={styles.item}>
-          <span className={styles.title}>Online-Store</span>
+          <span className={styles.title}>Task Note</span>
         </Link>
         <Link href="/info/OnlineStore" className={styles.item}>
-          <span className={styles.title}>Learnly-Dashboard</span>
+          <span className={styles.title}>Breed-Store</span>
         </Link>
         <Link href="/info/BreedRealEstate" className={styles.item}>
           <span className={styles.title}>Breed-Real-Estate</span>
