@@ -3,11 +3,11 @@ export const items = {
     LearnlyDashboard: [
         {
             id: 1,
-            title: "Learnly Dashboard",
-            desc: "It a web application that register tasks and render the tasklist, has filter and search and pagination, Employed redux for state management",
-            image: "/learnly.png",
-            url: "https://learnly-dashboard.vercel.app/",
-            repo:"https://github.com/Seunfola/learnly-dashboard",
+            title: "Task Note",
+            desc: "It a web application that register tasks, set Alarm, play the alarm tune and render the tasklist, has filter and search and pagination, Employed redux for state management",
+            image: "/learnly.jpg",
+            url: "https://task-dashboard-r34k.vercel.app/",
+            repo:"https://github.com/Seunfola/task-dashboard",
         },
 
     ],
